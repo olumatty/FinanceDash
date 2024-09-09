@@ -1,15 +1,32 @@
 .content-main-holder{
-    display:grid;
-    row-gap:16px;
+    display:grid; 
+    gap:16px;
 }
+
 .grid-one{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-templates-rows:auto;
+    grid-template-areas:
+    "one two three"
+    "Four Five three"
+    "Four six three";
     column-gap:16px;
+    min-height:220px;
 }
-.grid-one .main{
-    display:grid;
+.subgrid-one {
+    display: grid;
+    row-gap: 20px;
     grid-template-columns:repeat(1fr);
-    row-gap:16px;
-
-}
+    height: 100%;
+  }
+.content-grid-two {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 16px;
+  }
+.subgrid-two {
+    display: grid;
+    row-gap: 20px;
+    height: 100%;
+  }

@@ -1,5 +1,6 @@
 .grid-c2{
     display:grid;
+    grid-area: two;
 }
 .grid-c-title .grid-Name{
     margin-top:18px;
@@ -16,25 +17,40 @@
 }
 .grid-expenditure{
     display:flex;
+    align-items:center;
     justify-content:space-between;
-    margin-right:130px;
+    margin-right:60px;
 }
 .grid-expenditure .income, .grid-expenditure .Expenses{
     display:flex;
     margin-top:18px;
     align-items:center;
-    column-gap:16px;
+
 }
 .income .Expenses{
+    dispaly:flex;
+    align-items:flex-start;
+    column-gap:16px;
     margin-top:12px;
+    
 }
 .income .income_icon{
+    display:flex;
+    align-items: flex-start;
     background-color:#CBFFDE;
+    border-radius:5px;
     width:30px;
     height: 30px;
     display:inline;
     align-items:center;
-    color:#3FDB77;   
+    color:#3FDB77;  
+    margin-right:8px; 
+    
+}
+.income-amount{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
 }
 .income_icon .icon{
     align-items:center;
@@ -43,6 +59,7 @@
     margin-left:6px; 
 }
 .income-amount h3{
+    font-size:16px;
     color: #252525;
 }
 .income-amount span{
@@ -53,8 +70,13 @@
     background-color:#FFEBF5;
     width:30px;
     height: 30px;
+    border-radius:5px;
     display:inline;
     color:#FF379C;
+    display:flex;
+    align-items: flex-start;
+    margin-right:8px; 
+
 }
 .Expenses_icon .icon{
     align-items:center;
@@ -62,7 +84,13 @@
     margin-top:7.5px;
     margin-left:6px; 
 }
+.Expenses-amount{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
 .Expenses-amount h3{
+    font-size:16px;
     color: #252525;
 }
 .Expenses-amount span{

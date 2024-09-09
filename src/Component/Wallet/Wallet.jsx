@@ -14,7 +14,7 @@ const Wallet = () => {
             <GoArrowUpRight className="icon" />
           </div>
           <div className="income-amount">
-            <h3>$ 3,030.98</h3>
+            <h3>$3,030.98</h3>
             <span>Income</span>
           </div>
         </div>
@@ -23,7 +23,7 @@ const Wallet = () => {
             <GoArrowDownRight className="icon" />
           </div>
           <div className="Expenses-amount">
-            <h3>$ 223.98</h3>
+            <h3>$223.98</h3>
             <span>Expenses</span>
           </div>
         </div>
