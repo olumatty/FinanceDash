@@ -1,0 +1,71 @@
+.grid-c2{
+    display:grid;
+}
+.grid-c-title .grid-Name{
+    margin-top:18px;
+    font-size:20px;
+    font-weight:500;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color:rgba(51, 62, 82, 0.5);
+}
+.grid-c-title h1{
+    margin-top:18px;
+    font-size:44px;
+    letter-spacing:2.2px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.grid-expenditure{
+    display:flex;
+    justify-content:space-between;
+    margin-right:130px;
+}
+.grid-expenditure .income, .grid-expenditure .Expenses{
+    display:flex;
+    margin-top:18px;
+    align-items:center;
+    column-gap:16px;
+}
+.income .Expenses{
+    margin-top:12px;
+}
+.income .income_icon{
+    background-color:#CBFFDE;
+    width:30px;
+    height: 30px;
+    display:inline;
+    align-items:center;
+    color:#3FDB77;   
+}
+.income_icon .icon{
+    align-items:center;
+    justify-content:center;
+    margin-top:7.5px;
+    margin-left:6px; 
+}
+.income-amount h3{
+    color: #252525;
+}
+.income-amount span{
+    font-size:14px;
+    color:rgba(51, 62, 82, 0.4);
+}
+.Expenses .Expenses_icon{
+    background-color:#FFEBF5;
+    width:30px;
+    height: 30px;
+    display:inline;
+    color:#FF379C;
+}
+.Expenses_icon .icon{
+    align-items:center;
+    justify-content:center;
+    margin-top:7.5px;
+    margin-left:6px; 
+}
+.Expenses-amount h3{
+    color: #252525;
+}
+.Expenses-amount span{
+    font-size:14px;
+    color:rgba(51, 62, 82, 0.4);
+}

@@ -1,0 +1,15 @@
+.content-main-holder{
+    display:grid;
+    row-gap:16px;
+}
+.grid-one{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap:16px;
+}
+.grid-one .main{
+    display:grid;
+    grid-template-columns:repeat(1fr);
+    row-gap:16px;
+
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+*{
+  padding:0;
+  margin:0;
+  box-sizing: border-box;
+}
+.app{
+  display:flex;
+  min-height:100vh;
+}
+
+ul {
+  list-style-type: none;
+}
+a {
+  color: unset;
+  text-decoration: none;
+}
+button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.img-fit-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.grid-common1{
+  background-color:rgba(205, 222, 251, 0.77);
+  border-radius:12px;
+  padding: 24px;
+}  
+.grid-common{
+  background-color:rgba(241, 245, 251, 1);
+  border-radius:12px;
+  padding: 24px;
+} 

@@ -1,0 +1,52 @@
+.grid-common1 .grid-c1{
+    background-color:rgba(205, 222, 251, 0.77);
+    border-radius:12px;
+    padding: 24px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}  
+
+.grid-c1{
+    display:flex;
+    flex-direction:column;
+    padding:100px 10px 30px 24px;
+}
+
+.card-pin{
+    margin-top:30px;
+    font-size:18px;
+    font-weight:bold;
+    color:rgba(0, 0, 0, 0.65);
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.card-logo-wrapper{
+    margin-top:16px;
+}
+.grid-c1 .card-logo-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.grid-c1 .card-logo{
+    display:flex;
+    margin-right:20px;
+}
+.grid-c1 .logo-shape1,
+.grid-c1 .logo-shape2{
+    width:36px;
+    height:36px;
+    border-radius:100%;
+}
+.grid-c1 .logo-shape1{
+    background-color:#EB001B;
+    margin-right:-15px;
+    z-index:0;
+}
+.grid-c1 .logo-shape2{
+    background-color:#F79E1B;
+}
+@media screen and (max-width:768px){
+    .grid-c1{
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+}

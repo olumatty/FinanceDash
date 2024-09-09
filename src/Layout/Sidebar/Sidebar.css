@@ -1,0 +1,128 @@
+.sidebar{
+    background-color:#F1F5FB;
+    width:260px;
+    padding:36px 20px;
+}
+.user-info{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    column-gap:16px;
+}
+.info-img{
+    width:80px;
+    height:80px;
+    border-radius:100%;
+    overflow:hidden;
+}
+.user-info .Name{
+    margin-top:8px;
+    font-weight:bold;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+.user-info .job{
+    color:#9299A6;
+}
+.navigation{
+    margin-top:46px;
+}
+.nav-list-item {
+    margin-bottom: 32px;
+    margin-right: 4px;
+}
+.nav-list-item{
+    display: block;
+    display: flex;
+    height:18px;
+    align-items: center;
+    justify-content: flex;
+    padding: 4px 12px;
+    column-gap: 8px;
+    letter-spacing: 0.03rem;
+    border: 1px solid transparent;
+    cursor:pointer;
+}
+.nav-list-item .icon{
+    margin-right:10px;
+    align-items:center;
+    text-align:center;
+}
+.link{
+    display: block;
+    display: flex;
+    height:18x;
+    align-items: center;
+    justify-content: flex;
+    padding: 4px 12px;
+    column-gap: 8px;
+    letter-spacing: 0.03rem;
+    border: 1px solid transparent;
+    cursor:pointer;
+    color:#333E52;
+}
+.link:hover{
+    width:200px;
+    height:64px;
+    background-color:#CDDEFB;
+    border-radius:10px;
+    color:black;
+}
+@media screen and (max-width: 1400px) {
+    .sidebar {
+      padding: 24px 16px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    .sidebar {
+      width: 72px;
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    .user-info span {
+      display: none;
+    }
+  
+    .nav-item {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 18px;
+    }
+    .link {
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 32px;
+      height: 32px;
+     
+    }
+    .link span {
+      display: none;
+    }
+    .info-img{
+        width:50px;
+        height:50px;
+    }
+    .link:hover{
+        width:240px;
+        height:30px;
+        background-color:#CDDEFB;
+        border-radius:10px;
+        color:black;
+        align-items:center;
+    }
+  }
+
+  
+  @media screen and (max-width: 420px) {
+    .sidebar {
+      margin-left: -72px;
+    }
+    .sidebar-change {
+      margin-left: 0;
+    }
+  }
+  
+
+
