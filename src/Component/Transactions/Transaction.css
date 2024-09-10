@@ -1,0 +1,26 @@
+.grid-c4{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display:flex;
+    flex-direction:column;
+}
+.item{
+ 
+}
+
+.transaction_list{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:16px;
+    border-bottom: 1px solid #ddd;
+    gap:30px;
+    margin-top:20px;
+}
+.transaction_list p{
+    font-size:13px;
+    font-weight:600;
+    color: #252525;
+}
+.transaction_list .date{
+    color:rgba(37, 37, 37, 0.4);
+}

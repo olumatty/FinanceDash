@@ -4,7 +4,7 @@ const ContentTop = () => {
     return (
         <div className="main-content-top">
             <div className="content-top-left">
-                <BsSearch className="icon" />
+                <BsSearch className="icons" />
                 <input type ="text" placeholder="Search" className="input-field"/>
             </div>
 

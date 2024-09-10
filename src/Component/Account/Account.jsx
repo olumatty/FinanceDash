@@ -25,7 +25,7 @@ const Accounts = () => {
         <div className="grid-Reciept">
           <div className="Salary">
             <div className="Salary_icon">
-              <GoArrowUpRight className="icon" />
+              <GoArrowUpRight className="a-icon" />
             </div>
             <div className="Salary_amount">
               <h3>$5,000.00</h3>
@@ -34,7 +34,7 @@ const Accounts = () => {
           </div>
           <div className="Salary">
             <div className="Salary_icon">
-              <GoArrowUpRight className="icon" />
+              <GoArrowUpRight className="a-icon" />
             </div>
             <div className="Salary_amount">
               <h3>$59.00</h3>
@@ -43,7 +43,7 @@ const Accounts = () => {
           </div>
           <div className="Salary">
             <div className="Salary_icon">
-              <GoArrowUpRight className="icon" />
+              <GoArrowUpRight className="a-icon" />
             </div>
             <div className="Salary_amount">
               <h3>$3,030.00</h3>
@@ -61,7 +61,7 @@ const Accounts = () => {
         <div className="grid-payable">
           <div className="payable">
             <div className="payable_icon">
-              <RiReceiptLine className="icon" />
+              <RiReceiptLine className="a-icon" />
             </div>
             <div className="payable_amount">
               <h3>$5,000.00</h3>
@@ -70,7 +70,7 @@ const Accounts = () => {
           </div>
           <div className="payable">
             <div className="payable_icon">
-              <RiReceiptLine className="icon" />
+              <RiReceiptLine className="a-icon" />
             </div>
             <div className="payable_amount">
               <h3>$59.00</h3>

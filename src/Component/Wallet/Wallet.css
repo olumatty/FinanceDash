@@ -78,7 +78,7 @@
     margin-right:8px; 
 
 }
-.Expenses_icon .icon{
+.Expenses_icon .ex-icon{
     align-items:center;
     justify-content:center;
     margin-top:7.5px;
@@ -96,4 +96,5 @@
 .Expenses-amount span{
     font-size:14px;
     color:rgba(51, 62, 82, 0.4);
+    margin-bottom:10px; 
 }

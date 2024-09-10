@@ -13,6 +13,7 @@
 .Account-details .pay{
     color:#333E52;
     font-size:16px;
+    font-weight:bold;
 }
 .Account-details p{
     font-size:12px;
@@ -21,22 +22,22 @@
 }
 .grid-item .text{
     font-size:13px;
-    margin-top:12px;
+    margin-top:20px;
 }
 .grid-item .grid-item-progress{
     background-color: rgba(37, 37, 37, 0.41);
-    height:10px;
+    height:12px;
     border-radius:100vh;
     margin-top:8px;
 }
 .grid-item .grid-item-fill{
     width:80%;
-    height:10px;
+    height:12px;
     background-color:rgba(37, 37, 37, 1);
     border-radius:100vh;
 }
 .grid-reciept-text h3, .grid-payable-text h3{
-    margin-top:28px;
+    margin-top:32px;
     font-size:16px;
 }
 .grid-Reciept, .grid-payable{
@@ -46,7 +47,7 @@
 }
 .grid-Reciept .Salary, .grid-payable .payable{
     display:flex;
-    margin-top:20px;
+    margin-top:24px;
 }
 .Salary,.payable{
     display:flex;
@@ -59,28 +60,28 @@
     display:flex;
     align-items: flex-start;
     background-color:#FFFFFF;
-    width:40px;
-    height: 40px;
+    width:44px;
+    height: 44px;
     display:inline;
     align-items:center;
     color:#333E52;  
     margin-right:8px; 
     border-radius:6px
 }
-.Salary_icon .icon, .payable_icon .icon{
-    width:20px;
-    height:20px;
+.Salary_icon .a-icon, .payable_icon .a-icon{
+    width:22px;
+    height:22px;
 }
 .Salary-amount, .payable_amount{
     display:flex;
     flex-direction:column;
     justify-content:center;
 }
-.Salary_icon .icon, .payable_icon .icon{
+.Salary_icon .a-icon, .payable_icon .a-icon{
     align-items:center;
     justify-content:center;
-    margin-top:9px;
-    margin-left:9px; 
+    margin-top:10px;
+    margin-left:10px; 
 }
 .Salary_amount h3,.payable_amount h3{
     font-size:16px;
@@ -97,9 +98,61 @@
     font-weight: 500;
 }
 hr{
-    margin-top:30px;
+    margin-top:32px;
     color:#ADADAD;
 }
 .service{
     margin-bottom: 40px;
 }
+@media screen and (max-width:1200px){
+    .Account-details .pay{
+        font-size:15px;
+    }
+    .Account-details p{
+        margin-top:4px;
+    }
+    .grid-item .text{
+        font-size:12px;
+        margin-top:12px;
+    }
+    .grid-item .grid-item-progress{
+        height:8px;
+        margin-top:5px;
+    }
+    .grid-item .grid-item-fill{
+        height:10px;
+    }
+    .grid-reciept-text h3, .grid-payable-text h3{
+        margin-top:18px;
+        font-size:14px;
+    }
+    .grid-Reciept .Salary, .grid-payable .payable{
+        margin-top:10px;
+    }
+    .Salary .Salary_icon, .payable .payable_icon{
+        width:30px;
+        height: 30px;
+    }
+    .Salary_icon .a-icon, .payable_icon .a-icon{
+        width:14px;
+        height:14px;
+    }
+    hr{
+        margin-top:10px;
+        color:#ADADAD;
+    }
+    .service{
+        margin-bottom: 0px;
+    }
+}
+
+
+
+
+
+@media screen and (max-width:992px){
+    .grid-c3{
+        grid-column-start:1;
+        grid-column-end:3;
+    }
+  }

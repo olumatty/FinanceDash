@@ -19,27 +19,27 @@ const Sidebar = () => {
         <ul className="nav-list">
           <li className="nav-list-item">
             <a className ="link" href="">
-              <RiDashboardHorizontalLine className="icon" /><span>Dashboard</span>
+              <RiDashboardHorizontalLine className="side-icon" /><span>Dashboard</span>
             </a>
           </li>
           <li className="nav-list-item">
             <a className ="link" href="">
-              <RiWalletLine className="icon" /> <span>Wallet</span>
+              <RiWalletLine className="side-icon" /> <span>Wallet</span>
             </a>
           </li>
           <li className="nav-list-item">
             <a className ="link" href="">
-              <RiStackLine className="icon" /> <span>Transactions</span>
+              <RiStackLine className="side-icon" /> <span>Transactions</span>
             </a>
           </li>
           <li className="nav-list-item">
             <a className ="link"href="">
-              <RiReceiptLine className="icon" /> <span>Revenue analytics</span>
+              <RiReceiptLine className="side-icon" /> <span>Revenue analytics</span>
             </a>
           </li>
           <li className="nav-list-item">
             <a className ="link" href="">
-              <RiSearchLine  className="icon" /><span>Search</span>
+              <RiSearchLine  className="side-icon" /><span>Search</span>
             </a>
           </li>
         </ul>
@@ -50,17 +50,17 @@ const Sidebar = () => {
         <ul className="nav-list">
           <li className="nav-list-item">
             <a className="link" href="">
-              <RiSettings2Line className="icon" /> <span>Setting</span>
+              <RiSettings2Line className="side-icon" /> <span>Setting</span>
             </a>
           </li>
           <li className="nav-list-item">
             <a className="link"  href="">
-              <RiQuestionMark className="icon" /><span>Help</span>
+              <RiQuestionMark className="side-icon" /><span>Help</span>
             </a>
           </li>
           <li className="nav-list-item">
             <a className="link"  href="">
-              <RiLogoutBoxRLine className="icon" /><span> Log Out</span>
+              <RiLogoutBoxRLine className="side-icon" /><span> Log Out</span>
             </a>
           </li>
         </ul>

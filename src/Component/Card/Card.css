@@ -3,14 +3,14 @@
     border-radius:12px;
     padding: 24px;
     font-family: "Plus Jakarta Sans", sans-serif;
-    grid-area:one;
+    
    
 }  
 
 .grid-c1{
     display:flex;
     flex-direction:column;
-    padding:100px 10px 50px 24px;
+    padding:75px 10px 40px 24px;
 }
 
 .card-pin{

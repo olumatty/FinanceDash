@@ -20,7 +20,7 @@ const Wallet = () => {
         </div>
         <div className="Expenses">
           <div className="Expenses_icon">
-            <GoArrowDownRight className="icon" />
+            <GoArrowDownRight className="ex-icon" />
           </div>
           <div className="Expenses-amount">
             <h3>$223.98</h3>

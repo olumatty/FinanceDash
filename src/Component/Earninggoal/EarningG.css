@@ -1,3 +1,45 @@
 .grid-c6{
+    align-items :center;
+    justify-content:center;
+    font-family: "Plus Jakarta Sans", sans-serif;
     
+}
+.Metrics{
+    margin-top:10px;
+    display:flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:center;
+    gap:16px;
+}
+.Metric_Earning{
+    display:flex;
+    flex-direction:row;
+}
+span {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+  }
+.Goals{
+    display:flex;
+    flex-direction:row;
+   
+}
+.progress-bar{
+    width:80%;
+    height:10px;
+    background-color:#000000;
+}
+.Goals-bar{
+    width:50%;
+    height:10px;
+    background-color:rgba(37, 37, 37, 1);
+    border-radius:100vh;
+    overflow: hidden;
+}
+.piechart{
+    align-items:center;
+    display:flex;
+    justify-content:center;
 }

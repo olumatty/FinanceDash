@@ -1,32 +1,30 @@
 .content-main-holder{
-    display:grid; 
-    gap:16px;
+  display:grid; 
 }
 
 .grid-one{
     display:grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-templates-rows:auto;
-    grid-template-areas:
-    "one two three"
-    "Four Five three"
-    "Four six three";
-    column-gap:16px;
+    grid-auto-rows:minmax(180px,auto);
+    gap:16px;
     min-height:220px;
 }
-.subgrid-one {
-    display: grid;
-    row-gap: 20px;
-    grid-template-columns:repeat(1fr);
-    height: 100%;
+
+.three{
+  grid-column: span 1;
+  grid-row:span 3
+}
+.Four{
+  grid-column: span 1;
+  grid-row:span 2
+}
+@media screen and (max-width: 1200px){
+  .grid-one{
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 12px;
   }
-.content-grid-two {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    column-gap: 16px;
+  .three{
+    grid-column: span 1;
+    grid-row:span 2
   }
-.subgrid-two {
-    display: grid;
-    row-gap: 20px;
-    height: 100%;
-  }
+}

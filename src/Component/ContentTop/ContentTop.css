@@ -9,11 +9,11 @@
     width:100%
 }
 
-.content-top-left .icon{
+.content-top-left .icons{
     position:absolute;
     height:20px;
     min-width:40px;
-    margin-top:18px;
+    margin-top:16px;
     margin-left:10px;
 }
 
